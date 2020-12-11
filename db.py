@@ -2,8 +2,6 @@ from pydantic import BaseModel
 import datetime
 from typing import Dict
 
-
-
 class Reserva(BaseModel):
     habitacion_id: str
     usuario_id: str
@@ -30,8 +28,6 @@ def obtener_lista_reservas():
         lista_reservas.append(reservas[reserva])
         
     return lista_reservas
-
-
 
 def obtener_reserva(habitacion_id: int):
     if habitacion_id in Reserva:
