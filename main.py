@@ -4,7 +4,7 @@ import db
 
 api=FastAPI()
 
-@api.get("/reservas")
+@api.get("/reservas/ocupacion")
 async def obtener_ocupacion():
     return db.obtener_lista_reservas()
 
