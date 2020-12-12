@@ -19,7 +19,7 @@ reservas = {
     2: Reserva(habitacion_id = "2",
                 usuario_id = "2",
                 fecha_inicio = "2020-12-24",
-                fecha_fin = "2021-01-15"),
+                fecha_fin = "2021-01-15")
 }
 
 def obtener_lista_reservas():
