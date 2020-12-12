@@ -4,7 +4,7 @@ from typing import Dict
 
 class Reserva(BaseModel):
     habitacion_id: int
-    usuario_id: str
+    usuario_id: int
     fecha_inicio: datetime.date
     fecha_fin: datetime.date
 
