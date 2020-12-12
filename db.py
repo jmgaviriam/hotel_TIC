@@ -1,10 +1,10 @@
 from pydantic import BaseModel
 import datetime
-from typing import Dict
+#from typing import Dict
 
 class Reserva(BaseModel):
     habitacion_id: int
-    usuario_id: int
+    usuario_id: str
     fecha_inicio: datetime.date
     fecha_fin: datetime.date
 
